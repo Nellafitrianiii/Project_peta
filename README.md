@@ -2,7 +2,7 @@
 
 #PROSEDUR
 
-1. Unduh dan ekstrak data Kit Mulai Cepat Natural Earth. Buka QGIS. Temukan folder di panel Browser . Perluas folder untuk menemukan proyek. Ini adalah file proyek yang berisi lapisan bergaya dalam format Dokumen QGIS. Klik dua kali proyek untuk membukanya.
+1. Unduh dan ekstrak Natural Earth Quick Start Kit Data. Buka QGIS. Temukan folder di panel Browser . Perluas folder untuk menemukan proyek. Ini adalah file proyek yang berisi lapisan bergaya dalam format Dokumen QGIS. Klik dua kali proyek untuk membukanya.
 
 2. Anda mungkin memperhatikan bahwa peta memiliki label dalam bahasa Yunani. Proyek ini menggunakan variabel untuk mengatur bahasa. Kita dapat mengubah variabel dengan masuk ke Project Properties .
 
@@ -63,6 +63,7 @@ concat(to_string(@grid_number), '°    ')
 
 30. Sambil menahan tombol kiri mouse Anda, gambarlah sebuah persegi panjang. Di panel sebelah kanan, klik pada tab Item Properties dan perluas bagian Search directory dan pilih gambar yang Anda sukai.
 31. Sekarang kita akan menambahkan bilah skala. Klik Add Item Add Scalebar .
+
 32. Klik pada tata letak tempat Anda ingin bilah skala muncul. Di tab Properti Item , pastikan Anda telah memilih elemen peta yang benar untuk menampilkan bilah skala. Pilih Gaya yang sesuai dengan kebutuhan Anda. Di panel Segmen , ubah Lebar tetap menjadi satuan dan sesuaikan segmen sesuai keinginan Anda.Map 1200
 33. Saatnya memberi label pada peta kita. Klik Tambah Item Tambah Label .
 
